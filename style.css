@@ -2,18 +2,22 @@ body{
 	background: #eee;
 }
 
-input[type=text]{
+input[type=number]{
 	outline: 0;
 	border: 0;
 	border-bottom: 1px solid #333;
 	font-size: 1.2rem;
+	background: transparent;
+	display: block;
 }
 
 button{
+	font-size: 2rem;
+	display: block;
 	outline: 0;
 	border: 0;
-	background: #333;
+	background: transparent;
 	border: #121212;
-	color: #eee;
+	color: #333;
 	padding: .3rem .5rem;
 }
