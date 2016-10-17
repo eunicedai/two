@@ -20,4 +20,9 @@ button{
 	border: #121212;
 	color: #333;
 	padding: .3rem .5rem;
+	animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+	0%{transform: rotateX(0deg) rotateY(30deg)}
+	100%{transform: rotateX(180deg) rotateY(200deg)}
 }
